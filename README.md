@@ -30,3 +30,7 @@ In both cases, if an error has ocurred, it will be printed out with `System.err.
 ```java
 if(s == null) return;
 ```
+Slow proxy? No problem! You can change the entry proxy connection timeout like this:
+```java
+SocksWrapper.timeout = 10000; // 10000 milliseconds (10 seconds) instead of the default 5000 milliseconds (5 seconds).
+```
